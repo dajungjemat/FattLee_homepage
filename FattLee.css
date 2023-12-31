@@ -19,7 +19,6 @@ a:link, a:visited{
 #container{
     width: 1200px;
     height: auto;
-    background-color: lightblue;
 }
 
 #header{
@@ -33,14 +32,14 @@ a:link, a:visited{
 
 #menu{
     float: left;
-    width: 300px;
+    width: 25%;
     height: 700px;
     background-color: lightgoldenrodyellow;
 }
 
 #contents{
     float: left;
-    width: 900px;
+    width: 75%;
     height: 700px;
     background-color: lightgreen;
 }
@@ -96,4 +95,31 @@ a:link, a:visited{
     background-color: white;
 }
 
+#mainScreen{
+    border-radius: 20px;
+    float: left;
+    border: 5px solid #053b44;
+    width: 1190px;
+    height: auto;
+}
 
+#menu > ul > li{
+    position: relative;
+    text-align: center;}
+
+#menu > ul > li >a{
+    padding: 0 20px;
+    font-size: 40px;
+    font-weight: 900;
+}
+#menu > ul > li > ul{
+    width: 300px;
+    height: 115px;
+
+}
+
+
+#menu > ul > li > ul > li{
+   color: #053b44;
+   height: 30px;
+}

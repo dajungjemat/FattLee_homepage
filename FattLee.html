@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +8,39 @@
     <link rel="stylesheet" href="FattLee.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-        </style>
+    </style>
 </head>
+
 <body>
     <div id="container">
         <div id="header">
-             <a href="#">Fat+Lee</a>
-             <div>
+            <a href="#">Fat+Lee</a>
+            <div>
                 <input type="text">
                 <button onclick="search()"></button>
             </div>
         </div>
-        <div id="menu"></div>
-        <div id="contents"></div>
+        <div id="mainScreen">
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a class="mainMenu">mainMenu1</a>
+                        <ul class="subBar">
+                            <li><a>subMenu1</a></li>
+                            <li><a>subMenu1</a></li>
+                            <li><a>subMenu1</a></li>
+                            <li><a>subMenu1</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <div id="contents"></div>
+        </div>
+
         <div id="footer"></div>
     </div>
     <script src="FattLee.js"></script>
 </body>
+
 </html>
