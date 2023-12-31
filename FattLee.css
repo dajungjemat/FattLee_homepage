@@ -4,6 +4,18 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+a:link, a:visited{
+    color: black;
+}
+
 #container{
     width: 1200px;
     height: auto;
@@ -12,9 +24,11 @@
 
 #header{
     float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
-    height: 200px;
-    background-color: lightcoral;
+    height: 100px;
 }
 
 #menu{
@@ -37,3 +51,49 @@
     height:200px;
     background-color: #ccc;
 }
+#header > a{
+    margin-top: 10px;
+    margin-left: 50px;
+    float: left;
+    height: 100px;
+    font-size: 70px;
+    font-family: 'Lilita One', sans-serif;
+    color: #053b44;
+}
+
+#header > div{
+    margin-right: 100px;
+    background-color: white;
+    float: left;
+    width: 700px;
+    height: 50px;
+    border: 5px solid #053b44;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+}
+
+#header > div > input{
+    
+    float: left;
+    width: 600px;
+    height: 40px;
+    margin-top: 4px;
+    margin-left: 30px;
+    border:none;
+    outline: none;
+    color: #053b44;
+    font-size: 20px;
+}
+
+#header > div > button{
+    margin-left: 10px;
+    margin-top: 4px ;
+    float: left;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 5px solid #053b44;
+    background-color: white;
+}
+
+
